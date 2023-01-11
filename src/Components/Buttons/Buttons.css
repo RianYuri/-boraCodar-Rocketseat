@@ -1,0 +1,9 @@
+.buttons{
+    display: flex;
+    flex-direction: row;
+    gap: 48px;
+    padding-bottom: 25px;
+}
+.buttons__play{
+    cursor: pointer;
+}
