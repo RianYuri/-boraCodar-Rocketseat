@@ -27,10 +27,14 @@ justify-content="center"  align="center">
 </figure>
 
 ---
-<figure width="100%" display="flex"
-justify-content="center"  align="center">
-<img src="./public/pageGif.gif" >
-</figure>
+
+## Funcionalidades:
+
+<ul>
+    <li>Botão funcionando junto com a barra de progresso</li>
+</ul>
+
+---
 
 # :computer: Tecnologias
 
