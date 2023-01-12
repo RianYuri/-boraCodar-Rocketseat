@@ -1,0 +1,15 @@
+.content-app__small {
+  width: 357.71px;
+  height: 199.26px;
+  background: #2a2141;
+  border-radius: 9.60297px;
+}
+.img-app__small {
+  width: 90px;
+  padding: 29px 0px 0px 29px;
+}
+.content-app__smallTitle {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}

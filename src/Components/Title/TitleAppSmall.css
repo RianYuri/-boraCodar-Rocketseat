@@ -1,0 +1,25 @@
+.title-appSmall{
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    flex-direction: column;
+    padding-left: 9%;
+    padding-top: 9%;
+}
+
+.title-appSmall__h1{
+    font-family: "Roboto", sans-serif;
+    color: #e1e1e6;
+    font-weight: bold;
+    font-size: 23.0074px;
+    text-align: left;
+  
+  }
+  .title-appSmall__h5{
+      font-family: "Roboto", sans-serif;
+      color: #A5A2AF;
+      font-size: 19.0074px;
+      font-weight: 500;
+      padding-top: 7px;
+      padding-right: 20px;
+  }

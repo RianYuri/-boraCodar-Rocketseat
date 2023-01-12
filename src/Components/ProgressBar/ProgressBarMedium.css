@@ -1,0 +1,38 @@
+.progress-bar__min {
+  display: flex;
+  gap: 120px;
+}
+.progress-bar__barMedium {
+  width: 290.66px;
+  height: 6px;
+  background-color: #5e586f;
+  border-radius: 9.6px;
+}
+.progress-bar__startMedium {
+  padding-top: 13px;
+  font-family: "Roboto", sans-serif;
+  color: #9693a3;
+  font-weight: 400;
+  font-size: 15px;
+  padding-right: 95px;
+}
+.progress-bar__endMedium {
+  padding-top: 13px;
+  font-family: "Roboto", sans-serif;
+  color: #9693a3;
+  font-weight: 400;
+  font-size: 15px;
+  text-align: flex-end;
+}
+.progress-bar__fillMedium{
+  background-color: #d6d6d7;
+  height: 6px;
+  border-radius: 9.6px;
+  transition: all 0.3s ease-out;
+}
+.progress-bar__contentMedium {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}

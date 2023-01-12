@@ -1,0 +1,14 @@
+.content-app__big {
+    width: 266.48px;
+    height: 498px;
+    background: #2a2141;
+    border-radius: 9.60297px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex-direction: column;
+  }
+
+  .img-app__big{
+    padding:16% 1% 1% 1%;
+    }

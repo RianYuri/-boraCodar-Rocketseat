@@ -1,0 +1,13 @@
+.buttonsApp__medium{
+    display: flex;
+    flex-direction: row;
+    align-content:center;
+    justify-content:center;
+    gap: 15%;
+  padding-bottom: 27px;
+  padding-top: 7%;
+
+}
+.buttons__play-medium{
+    cursor: pointer;
+}

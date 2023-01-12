@@ -3,8 +3,8 @@ import { useState, useEffect } from "react";
 
 const ProgressBar = (props) => {
   const [barFill, setBarFill] = useState(0);
-const [seconds, setSeconds] = useState(0);
-const [min,setMin] = useState(0)
+const [seconds, setSeconds] = useState(20);
+const [min,setMin] = useState(3)
 
   useEffect(() => {
     console.log(props.onPlay);
@@ -13,19 +13,19 @@ const [min,setMin] = useState(0)
     setTimeout(()=>{
 
         setBarFill((prevCounter) => prevCounter + 1);
-    setSeconds((prevCounterSeconds)=> prevCounterSeconds + 1 );
+    setSeconds((prevCounterSeconds)=> prevCounterSeconds - 1 );
 
   
     },100)
 
-    if(seconds >= 59){
-        setMin((prevCounterMin) => prevCounterMin + 1)
-        setSeconds(0);
+    if(seconds === 0){
+        setMin((prevCounterMin) => prevCounterMin - 1)
+        setSeconds(59);
              }
-             if(min === 3 && seconds === 20){
+             if(min === 0 && seconds === 0){
                 setBarFill(0);
-                setMin(0);
-                setSeconds(0);
+                setMin(3);
+                setSeconds(20);
              }
     
             }else{

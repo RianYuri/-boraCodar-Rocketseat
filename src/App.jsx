@@ -1,27 +1,16 @@
 import "./App.css";
-import {useState}from "react";
-import TitleApp from "./Components/Title/TitleApp";
-import mainImg from "../public/mainImg.svg"; 
-import Buttons from "./Components/Buttons/Buttons";
-import ProgressBar from "./Components/ProgressBar/ProgressBar";
+import AppBig from "./Components/Layout/AppBig";
+import AppMedium from "./Components/Layout/AppMedium";
+import AppSmall from "./Components/Layout/AppSmall";
+
 function App() {
-  const [verifyTouch, setVerifyTouch] = useState(false);
-  const onVerifyTouch = () => {
-    setVerifyTouch(!verifyTouch);
-  };
   return (
     <>
       <div className="container">
-        <div className="content-app__big">
-        <img src={mainImg} className="img-app__big" defer />
-          <TitleApp />
-          <Buttons touchChecked={onVerifyTouch}/>
-          <ProgressBar onPlay={verifyTouch}/>
-        </div>
-
+        <AppBig />
         <div className="container_2">
-          <div className="content-app__medium"></div>
-          <div className="content-app__small"></div>
+          <AppMedium/>
+          <AppSmall/>
         </div>
       </div>
     </>
